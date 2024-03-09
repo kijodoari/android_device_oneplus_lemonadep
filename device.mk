@@ -72,3 +72,6 @@ $(call inherit-product, device/oneplus/sm8350-common/common.mk)
 
 # Inherit from the proprietary files makefile.
 $(call inherit-product, vendor/oneplus/lemonadep/lemonadep-vendor.mk)
+
+# Gapps
+$(call inherit-product-if-exists, vendor/gapps/common/common-vendor.mk)
