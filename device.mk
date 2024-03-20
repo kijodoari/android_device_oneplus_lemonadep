@@ -10,7 +10,7 @@ PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
 
 # Alert slider
 PRODUCT_PACKAGES += \
-    KeyHandler \
+    DeviceSettings \
     tri-state-key-calibrate
 
 # Audio
@@ -57,8 +57,7 @@ PRODUCT_PACKAGES += \
     OPlusFrameworksResTarget \
     OPlusSettingsProviderResTarget \
     OPlusSettingsResTarget \
-    OPlusSystemUIResTarget \
-    OPlusWifiResTarget
+    OPlusSystemUIResTarget
 
 # PowerShare
 PRODUCT_PACKAGES += \
